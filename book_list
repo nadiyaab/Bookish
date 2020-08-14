@@ -1,0 +1,41 @@
+table 1- Book list
+
+ID    Author_Name  List_of_Books                Code
+D       Dickens    Oliver Twist                  4
+                   David Copperfield
+                   Great Expectations
+H      Hosseini    The Kite Runner
+                   A Thousand Splendid Suns      8
+S     Shakespeare  Hamlet
+                   Romeo & Juliet                19
+                   Othello                
+                   Macbeth 
+
+
+table 2- Availability
+
+ID    Total_Copies               Availabile              Taken
+ 4     Oliver Twist x2              1                      1
+       David Copperfield x2         0                      2
+       Great Expectations x2        2                      0            
+
+ 8     The Kite Runner x1            1                      0
+       A Thousand Splendid Suns x1   0                      1
+
+19     Hamlet  x2                    0                     2
+       Romeo & Juliet x2             0                     2
+       Othello  x1                   1                     0
+       Macbeth  x1                   0                     1
+
+table 3- List_of_Users 
+
+List_of_Users                       Books_taken
+'Charmian', 'Goodrick',              Oliver Twist
+'Vivienne', 'Ricson',                David Copperfield
+'Mart', 'Cayford',                   A Thousand Splendid Suns    
+'Matty', 'Cossum',                   Romeo & Juliet
+'Homer', 'Hackley'                   David Copperfield
+'Konstantin', 'Dows'                 Hamlet
+'Ralf', 'Croot',                     Macbeth
+'Chev', 'Ghelarducci',               Romeo & Juliet
+'Cesaro', 'Nowakowska'               Hamlet
