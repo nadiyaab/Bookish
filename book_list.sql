@@ -21,7 +21,7 @@ CREATE TABLE check_out_history (
     id                int primary key,
     copy_id           int REFERENCES copy(id) not null,
     member_id         int REFERENCES member(id) not null,
-    check_out_date    datetime,
-    return_date       datetime
+    check_out_date    varchar(10),
+    return_date       varchar(10)
 );
 
